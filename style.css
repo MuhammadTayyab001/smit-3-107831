@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: rgb(7, 37, 97); */
+    /* background-color: rgb(193, 202, 222); */
+}
+nav{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(59, 89, 151);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+nav img{
+    width: 150px;
+    height: 100px;
+}
+.login{
+    display: flex;
+
+}
+.one{
+    width: 200px;
+    padding: 13px;
+  
+}
+
+.two{
+    width: 200px;
+    padding: 13px;
+    
+}
+.three{
+    width: 200px;
+    padding: 25px;
+    
+}
+.three button{
+    width: 55px;
+    height: 30px;
+    background: none;
+    background-color: rgb(98, 149, 252);
+}
+.foam{
+    background-color: rgb(231, 235, 242);
+    width: 100vw;
+    height: 57.5vw;
+    display: flex;
+}
+.part-1{
+    width: 50vw;
+    color: rgb(7, 37, 97);v
+    /* border: 1px solid black; */
+  
+}
+.part-1 h2{
+    padding: 50px;
+}
+.part-1 img{
+    width: 500px;
+}
+.part-2{
+    color: rgb(7, 37, 97);
+    width: 50vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.singup{
+   
+    margin-top: 50px;
+    width: 40vw;
+    height: 50vw;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+}
+.singup h2{
+    padding: 20px 0px 0px 20px;
+}
+.singup h2:nth-child(2){
+    font-weight: 100;
+}
+.name{
+    display: flex;
+    text-align: right;
+}
+.name-1 p{
+    padding: 10px 0px;
+}
+.name-2 input{
+    width: 300px;
+    height: 22px;
+    margin: 15px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Gender{
+    width: 200px;
+    padding: 3px;
+    display: flex;
+}
+.Gender p{
+    padding: 0px 10px;
+}
+.age{
+    width: 300px;
+    padding: 10px 30px;
+}
+.why{
+    width: 280px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 10px;
+}
+.why p{
+    font-size: 13px;
+}
+
+.button{
+    width: 200px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding: 10px;
+}
+.button button{
+    background-color: rgb(20, 148, 20);
+    color: white;
+    width: 80px;
+    height: 28px;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.hi{
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
